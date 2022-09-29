@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="title.webp">
+    <link href="http://fonts.cdnfonts.com/css/mars-police" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/chicago" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/flash-rogers" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Doge</title>
+</head>
+<body>
+    <div class="contenedor">
+        
+        <div class="ventana-card">
+            <div class="card">
+                <p id="textoJuego"></p>
+                <button id="btnSiguienteJugador" class="btn-cerrar">Siguiente Jugador</button>
+            </div>  
+        </div>
+        
+        <div class="ventana-user">
+            <div class="userNav">
+                <div class="jugadores">
+                    <h1>Agregar jugadores</h1>
+                    <div>
+                        <input id="input" type="text" placeholder="Agregar Jugadores">
+                        <button id="btnMas" class="btnMas">+</button>
+                        <button id="btnMenos" class="btnMas">-</button>
+                        <ul id="ul">
+
+                        </ul>
+                    </div>
+                </div>  
+            </div>
+            <div class="btnNav">
+                <div class="panelJugador">
+                    <p>Le toca a</p>
+                    <h1 id="jugadorAct"></h1>
+                </div>
+                <div class="panelBtn">
+                    <button id="btnVerdad" class="btn">Verdad</button>
+                    <button id="btnReto" class="btn">Reto</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
